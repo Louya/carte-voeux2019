@@ -1,0 +1,43 @@
+<mjml>
+  <mj-head>
+    <mj-title>SpaceCard - Vous avez une carte</mj-title>
+  </mj-head>
+  <mj-body background-color="#242449">
+    <mj-raw>
+      <!-- Top Bar -->
+    </mj-raw>
+    <mj-section background-color="#FF3FB4" background-url="https://dmmedia.sphero.com/email-marketing/Sphero/Mini-Launch-email-Top-BarBG.jpg" padding="0px">
+      <mj-column>
+        <mj-image alt="logo lune" href="https://fabienc.promo-23.codeur.online/carte_voeux/" src="https://fabienc.promo-23.codeur.online/carte_voeux/media/logo.png" width="46px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- Logos and Title -->
+    </mj-raw>
+    <mj-section background-color="#191926">
+      <mj-column>
+        <mj-image alt="image de la terre" src="https://fabienc.promo-23.codeur.online/carte_voeux/media/earth.png" width="547px" padding="0px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- Split Crane and Text -->
+    </mj-raw>
+    <mj-section padding-top="20px" padding-bottom="20px" padding-left="25px" background-color="#191926">
+      <mj-column vertical-align="middle">
+        <mj-text align="center" font-family="arial" font-size="16px" color="#B9B9B9"><span style="color:#0098CE"><b>{{prenom}}</b></span> vous a envoyé une carte de voeux spatiale et animée pour,<span style="color:#3CD52E"><b>2019 !</b></span></mj-text>
+        <mj-button align="center" font-weight="400" color="#191926"  background-color="#4ACC66" border-radius="20px" href="https://fabienc.promo-23.codeur.online/carte_voeux/carte/{{name}}" width="188px">Voir ma carte !</mj-button>
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-image alt="petite navette spaciale" src="https://fabienc.promo-23.codeur.online/carte_voeux/media/shuttle.png" width="325px" padding="0px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- Bottom Bar -->
+    </mj-raw>
+    <mj-section padding="0px" background-url="https://dmmedia.sphero.com/email-marketing/Sphero/Mini-Launch-email-launch-bottombargradiantBG.png" background-color="#F15822">
+      <mj-column>
+        <mj-button background-color="rgba(10,10,10,0)" height="30px" line-height="30px" color="white" href="https://fabienc.promo-23.codeur.online/carte_voeux/" font-family="Ubuntu" font-size="20px" font-weight="600" align="center">SPACECARD 2019</mj-button>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

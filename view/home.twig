@@ -1,0 +1,44 @@
+{% extends "homeCommon.twig" %}
+
+{% block title %}
+Accueil
+{% endblock %}
+
+{% block content %}
+<main class="container-fluid d-flex align-items-center" id="home-main">
+    <section class="container">
+        <div class="row py-4">
+            <div class="col-12 d-flex justify-content-center align-items-center">
+                <h1 class="titre-index text-center">Bienvenue sur <span>SpaceCard 2019</span></h1>
+            </div>
+        </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-8 d-flex flex-column align-items-center top-card">
+                    <h2 class="mt-3 text-center">Envoyer une carte de voeux originale pour 2019</h2>
+                    <p class="px-3 text-center">Après tout, une année c'est une révolution de notre belle planête autour du soleil.
+                        Alors pourquoi ne pas envoyer une carte de voeux animée sur le thème de l'espace ?
+                    </p>
+                    <a href="https://fabienc.promo-23.codeur.online/carte_voeux/carte/Martin"><button class="btn btn-dark mb-3">Voir la carte</button></a>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-8 bottom-card">
+                    <form class="d-flex flex-column px-5" action="mail" method="POST" name="sendCard" id="sendCard">
+                        <input type="text" class="form-control input-upload mt-3" name="nomExpediteur" id="nomExpediteur"
+                            placeholder="Votre Prénom" required>
+                        <input type="text" class="form-control input-upload mt-3" name="nomDestinataire" id="nomDestinataire"
+                            placeholder="Le prénom de votre destinataire" required>
+                        <input type="email" class="form-control input-upload mt-3" name="mailDestinataire" id="mailDestinataire"
+                            placeholder="L'adresse mail de votre destinataire" required>
+                        <button type="submit" name="submit" id="btnSubmit" class="btn btn-primary my-3">Envoyer !</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 d-flex justify-content-center">
+                    <img id="shuttle" src="media/shuttle_anim.svg" alt="navette animée">
+                </div>
+            </div>
+    </section>
+</main>
+{% endblock %}

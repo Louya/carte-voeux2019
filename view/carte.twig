@@ -1,0 +1,30 @@
+{% extends "homeCommon.twig" %}
+
+{% block title %}
+Carte 2019
+{% endblock %}
+
+{% block content %}
+<main class="container-fluid" id="carte-main">
+    <section class="container">
+        <article class="row l1">
+            <div class="col-12 d-flex justify-content-center align-items-center">
+                <h1 class="wish text-center"><span class="name">{{prenom}}</span>, bonne année <span class="year">2019 !</span></h1>
+            </div>
+        </article>
+        <article class="row l2">
+            <div class="col-12 d-flex justify-content-center align-items-center">
+                <img class="earth" src="media/earth_anim.svg" alt="planète terre animée">
+            </div>
+        </article>
+        <article class="row l3">
+            <div class="col-6 d-flex justify-content-center align-items-center">
+                <img class="mars" src="media/mars_anim.svg" alt="planète mars animée">
+            </div>
+            <div class="col-6 d-flex justify-content-center align-items-center">
+                <img class="moon" src="media/moon_anim.svg" alt="lune animée">
+            </div>
+        </article>
+    </section>
+</main>
+{% endblock %}

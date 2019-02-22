@@ -1,0 +1,40 @@
+{% extends "homeCommon.twig" %}
+
+{% block title %}
+C'est parti
+{% endblock %}
+
+{% block content %}
+<main class="container-fluid d-flex align-items-center" id="home-main">
+    <section class="container">
+        <div class="row py-4">
+            <div class="col-12 d-flex justify-content-center align-items-center">
+                <h1 class="titre-index text-center">Bienvenue sur <span>SpaceCard 2019</span></h1>
+            </div>
+        </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-8 d-flex flex-column align-items-center top-card">
+                    <h2 class="mt-3 text-center">Envoyer une carte de voeux originale pour 2019</h2>
+                    <p class="px-3 text-center">Après tout, une année c'est une révolution de notre belle planête autour du soleil.
+                        Alors pourquoi ne pas envoyer une carte de voeux animée sur le thème de l'espace ?
+                    </p>
+                    <a href="https://fabienc.promo-23.codeur.online/carte_voeux/carte/Martin"><button class="btn btn-dark mb-3">Voir la carte</button></a>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-8 py-3 bottom-card d-flex flex-column justify-content-center align-items-center">
+                    <h3>Votre carte de voeux voyage autour de la Terre !</h3>
+                    <hr align="center" size="2" width="60%">
+                    <p class="text-center">Merci d'avoir utilisé SpaceCard. 
+                        <br>Pour envoyer une autre carte vous pouvez cliquez sur le boutton Accueil</p>
+                    <a href="https://fabienc.promo-23.codeur.online/carte_voeux"><button class="home btn btn-primary px-5">Accueil</button></a>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 d-flex justify-content-center">
+                    <img id="shuttle" src="media/shuttle_anim.svg" alt="navette animée">
+                </div>
+            </div>
+    </section>
+</main>
+{% endblock %}
